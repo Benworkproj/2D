@@ -1,0 +1,140 @@
+*{
+	font-family: "arial";
+	font-weight: bold;
+}
+
+#log{
+	width: 225px;
+	margin: auto;
+	text-align: left;
+	background-color: #CCCCCC;
+	border-radius: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 30%;
+	box-shadow: 0px 5px 5px #aaaaaa;
+}
+
+input{
+	border-radius: 15px;
+	width: 100%;
+	border-style: none;
+}
+.textbox{
+	padding: 3px 3px 3px 15px;
+}
+
+#loginbutt{
+	background-color: #449F73; 
+	box-shadow: 0px 2px 2px #aaaaaa; 
+	width: 50%; 
+	margin-left: 25%; 
+	color: white;
+}
+#alumniname{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#feedbackform{
+	width: 80%;
+	margin: auto;
+	text-align: left;
+	background-color: #e1e1e1;
+	border-radius: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 5%;
+	box-shadow: 0px 5px 5px #aaaaaa;
+	display: flex;
+	flex-wrap: wrap;
+}
+.namecourse{
+	display: flex;
+
+	justify-content: space-around;
+}
+
+.sidenav{
+	height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.alumniname a{
+	color: black;
+}
+
+#directory{
+	width: 80%;
+	margin: auto;
+	text-align: left;
+	background-color: #e1e1e1;
+	border-radius: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 5%;
+	box-shadow: 0px 5px 5px #aaaaaa;
+
+}
+#editform{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#editform input[type=text]{
+	padding-left: 10px;
+	max-width: 30%;
+	margin-top:  5px;
+}
+
+#editform input[type=submit]{
+	width: 100px;
+	margin-top: 10px;
+	background-color: #449F73;
+	color: white;
+}
+#editform button{
+	border-style: none;
+	border-radius: 15px;
+	width: 100px;
+}
+
+#editform a{
+	text-decoration: none;
+	color: black;
+}
