@@ -1,0 +1,5 @@
+<?php
+	include "database.php";
+	$id = "id";
+	$query = "DELETE FROM login WHERE id='$id'";
+?>
